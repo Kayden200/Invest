@@ -2,9 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const authRoutes = require('./routes/auth.js');
-const transactionRoutes = require('./routes/transactions.js');
-const adminRoutes = require('./routes/admin.js');
+const authRoutes = require('/routes/auth.js');
+const transactionRoutes = require('/routes/transactions.js');
+const adminRoutes = require('/routes/admin.js');
 
 dotenv.config();
 
