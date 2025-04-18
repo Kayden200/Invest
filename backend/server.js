@@ -8,6 +8,7 @@ const authRoutes = require('./routes/auth');
 const transactionRoutes = require('./routes/Transaction');
 const adminRoutes = require('./routes/admin');
 const userRoutes = require('./routes/user');
+require('./cron/dailyEarnings'); // Run the cron
 
 const app = express();
 app.use(cors());
